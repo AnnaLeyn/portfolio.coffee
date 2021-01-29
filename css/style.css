@@ -26,20 +26,9 @@ header.menu_container{
     background-position: 100% 100%;
     height: 900px;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
-/* header.menu nav ul li{
-    background-image: url(../img/menu.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 50px;
-    width: 100px;
-    background-position: center;
-    list-style-type: none;
-    margin: auto;
-} */
-/* ##### sidebar menu ############### */
+
 .wrapper {
     display: flex;
     text-decoration: none;
@@ -67,7 +56,6 @@ header.menu_container{
   
   #sidebar ul.components {
     padding: 20px 0;
-    /* border-bottom: 1px solid #47748b; */
   }
   
   #sidebar ul p {
@@ -104,12 +92,12 @@ header.menu_container{
     transform: translateY(-50%);
   }
   
-  ul ul a {
+ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
     background: #1b1d24;
   }
-/* ##### end sidebar menu ############### */
+
 header.menu_container .logo{
     background-image:url(../img/TCS+Logo+Mug@4x+copy.png);
     height: 200px;
@@ -118,9 +106,7 @@ header.menu_container .logo{
     background-position: center;
 }
 
-/* header.menu_container .scrollbar{
-    display: none;
-} */
+
 header.menu_container h1{
     width: 70%;
     margin:  auto;
@@ -163,9 +149,7 @@ main .slogans{
     flex-wrap: wrap;
     margin: 40px auto;
     text-align: center;
-    justify-content: space-around;
-    
-    
+    justify-content: space-around;    
 }
 main .slogans h4{
     margin: 10px 0;
@@ -277,13 +261,11 @@ main .events a:hover{
     background-color: black;
     color: #f2eee8;
 }
-/* ##### slider ############### */
 
 .slider_container{
     display: block;
     width: 90%;
     margin: 0 auto;
-    /* height: 350px; */
     position: relative;
 }
 .the_slider{
@@ -296,7 +278,6 @@ main .events a:hover{
 .the_slider .s_slide{
     display: block;
     width: 100%;
-    /* height: 100%; */
     float: left;
     background-repeat: no-repeat;
     height: 900px;
@@ -324,10 +305,7 @@ main .events a:hover{
 .the_slider .s_slide_1{
     background-image: url('../img/pexels-dominika-roseclay-977876.jpg');
 }
-/* .the_slider .s_slide_2{
-    here you can add another image
-    background-image: url('another image, look the name classes');
-} */
+
 .slider_text{
     color: white;
     font-size: 35px;
@@ -338,13 +316,10 @@ main .events a:hover{
     text-shadow: 0 0 10px #7f6848;
     z-index: 1;
     position:absolute;
-    top:35%;
     bottom:0;
     left:0;
     right:0;
 }
-
-/* ##### end slider ############### */
 main .coffee-menu{
     margin: auto;
 }
